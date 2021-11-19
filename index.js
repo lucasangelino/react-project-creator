@@ -1,5 +1,5 @@
 var inquirer = require("inquirer");
-console.log("Create Proyect App 🚀");
+console.log("React Project Creator 🚀");
 inquirer
   .prompt(["Project Name?"])
   .then((answers) => {
