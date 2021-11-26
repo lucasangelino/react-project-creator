@@ -5,8 +5,4 @@ inquirer
   .then((answers) => {
     console.log("your proyect name is: ", answers);
   })
-  .catch((error) => {
-    if (error.isTtyError) {
-    } else {
-    }
   });
