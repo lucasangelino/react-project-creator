@@ -43,9 +43,6 @@ inquirer
   .prompt(questions)
   .then((answers) => {
     console.log("✅ Project Created");
-    // for (var key in answers) {
-    //   console.log(color("subtitle", key), color("info", answers[key]));
-    // }
   })
   .catch((error) => {
     if (error.isTtyError) {
